@@ -1,46 +1,59 @@
-body > {
-    width: 920px;
-    margin: auto;
-     margin: auto;
-}
-
-header > div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 5px 25px;
-}
-
-header > img {
-    width: 200px;
-    margin-right: 35px;
-}
-
-.colonne {
-    width: 50%;
-    float: left;
-}
-
-.flex {
-    display: flex;
-}
-
-.liens {
-    width: 50%;
-    float: center;
-}
-
-
 header {
-    background-color: yellowgreen;
-    flex-direction: row;
-    align-items: center;
-}
-
-footer {
-    background-color:red;
-}
-
-.J03 {
-    text-align: center;
-}
+    background-color:orangered; }
+    
+    img { float: left;
+    }
+    
+    nav{ text-align: center;
+    background-color: white;
+    
+    }
+    
+    main { 
+        background-color: lightgray;
+        display: block;
+        border-color: orangered;
+        border-width: 2px;
+        border-style: solid;
+    }
+    
+    section.profil {
+        background-color: white;
+        border-color: orangered;
+        border-width: 2px;
+        border-style: solid;
+        margin-right: 600px;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    
+    section.compétences {
+        text-align: center;
+        margin-left: 700px;
+        margin-right: 100px;
+        margin-top: -205px;
+    }
+    
+    section.intérêts {
+        text-align: left;
+        margin-top: 100px;
+        margin-bottom: 80px;
+        margin-left: 10px;
+    }
+    
+    footer {
+        background-color: orangered;
+    }
+    
+    div.tel {
+    
+        text-align: left;
+        margin-top: 30px;
+    }
+    
+    div.reseau { 
+        text-align: right;
+        text-align :top; 
+        margin-right: 100px;  
+    }
