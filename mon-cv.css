@@ -1,0 +1,44 @@
+body > {
+    width: 920px;
+    margin: auto;
+    background-color: blue;
+    margin: auto;
+}
+
+header > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+header > img {
+    width: 200px;
+    margin-right: 35px;
+}
+
+.colonne {
+    width: 50%;
+    float: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.liens {
+    width: 50%;
+    float: center;
+}
+
+
+header {
+    background-color:red;
+    flex-direction: row;
+    align-items: center;
+}
+
+footer {
+    background-color:yellowgreen;
+}
+
